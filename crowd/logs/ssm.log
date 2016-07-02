@@ -1,0 +1,12 @@
+[INFO] [2016-03-05 18:11:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-03-05 18:11:35][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@3af78ba5: startup date [Sat Mar 05 18:11:35 CST 2016]; root of context hierarchy
+[INFO] [2016-03-05 18:11:35][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-03-05 18:11:35][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-03-05 18:11:38][com.peachliu.test.junit.TestMyBatis]{"birthday":422294400000,"gender":"男","id":100001,"name":"lala","political":"党员"}
+[INFO] [2016-03-05 18:11:38][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3af78ba5: startup date [Sat Mar 05 18:11:35 CST 2016]; root of context hierarchy
+[INFO] [2016-03-05 18:13:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-03-05 18:13:54][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@3af78ba5: startup date [Sat Mar 05 18:13:54 CST 2016]; root of context hierarchy
+[INFO] [2016-03-05 18:13:55][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-03-05 18:13:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-03-05 18:13:55][com.peachliu.test.junit.TestMyBatis]{"birthday":422294400000,"gender":"男","id":100001,"name":"lala","political":"党员"}
+[INFO] [2016-03-05 18:13:55][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3af78ba5: startup date [Sat Mar 05 18:13:54 CST 2016]; root of context hierarchy
