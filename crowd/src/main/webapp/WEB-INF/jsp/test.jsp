@@ -6,10 +6,12 @@
   </head>  
     
   <body>  
-    ${students.id}
+    <%-- ${students.id}
     ${students.name}
     ${students.gender}
     ${students.birthday}
-    ${students.political}  
+    ${students.political}  --%> 
+    ${students} 
+    
   </body>  
 </html>  

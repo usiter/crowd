@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.peachliu.test.domain.Students;
@@ -17,18 +18,25 @@ import com.peachliu.test.service.IStudentsService;
  *http://localhost:8080/crowd/students/showStudents?id=100001
  */
 @Controller  
-@RequestMapping("/students") 
+/*@RequestMapping("/students") */
 public class StudentsController {
 	 	@Resource  
 	    private IStudentsService studentsService;  
 	      
 	    @RequestMapping("/showStudents")  
-	    public String toIndex(HttpServletRequest request,Model model){  
-	        int userId = Integer.parseInt(request.getParameter("id"));  
-	        Students students = this.studentsService.getStudentsById(userId);  
-	        model.addAttribute("students", students);  
-	        //return "index/test"; 前端浏览器URL /项目名称/WEB-INF/jsp/index/test.jsp
-	        return "test"; //test是jsp名字
+	    public String toIndex(HttpServletRequest request,Model model){ 
+	    	String id = request.getParameter("id");
+	    	if(StringUtils.isEmpty(id.trim())){
+	    		model.addAttribute("students", "id is null"); 
+	    		return "test";
+	    	}else{
+	    		int userId = Integer.parseInt(id);  
+		        Students students = this.studentsService.getStudentsById(userId);  
+		        model.addAttribute("students", students);  
+		        //return "index/test"; 前端浏览器URL /项目名称/WEB-INF/jsp/index/test.jsp
+		        return "test"; //test是jsp名字
+	    	}
+	        
 	    }  
 
 }
