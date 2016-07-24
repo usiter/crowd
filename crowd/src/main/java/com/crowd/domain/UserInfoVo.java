@@ -20,7 +20,7 @@ package com.crowd.domain;
  * @version 1.0.0
  *
  */
-public class UserVo {
+public class UserInfoVo {
 	private String userId;
 	private String name;
 	private String age;

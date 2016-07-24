@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.crowd.dao.IUserInfoDao" >
+  <resultMap id="BaseResultMap" type="com.crowd.entity.UserInfo" >
+    <id column="USERID" property="userId" jdbcType="DECIMAL" />
+    <result column="USERNAME" property="userName" jdbcType="VARCHAR" />
+    <result column="AGE" property="age" jdbcType="DECIMAL" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    USERID, USERNAME, AGE
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from T_USERINFO
+    where USERID = #{id,jdbcType=DECIMAL}
+  </select>
+  
+</mapper>

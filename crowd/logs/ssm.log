@@ -10,3 +10,635 @@
 [INFO] [2016-03-05 18:13:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 [INFO] [2016-03-05 18:13:55][com.peachliu.test.junit.TestMyBatis]{"birthday":422294400000,"gender":"男","id":100001,"name":"lala","political":"党员"}
 [INFO] [2016-03-05 18:13:55][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3af78ba5: startup date [Sat Mar 05 18:13:54 CST 2016]; root of context hierarchy
+[INFO] [2016-07-20 00:09:43][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-20 00:09:43][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Jul 20 00:09:43 CST 2016]; root of context hierarchy
+[INFO] [2016-07-20 00:09:43][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-20 00:09:45][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-20 00:09:45][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:09:45][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2536 ms
+[INFO] [2016-07-20 00:09:46][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-20 00:09:46][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 20 00:09:46 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-20 00:09:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-20 00:09:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:09:47][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents] onto handler 'studentsController'
+[INFO] [2016-07-20 00:09:47][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents.*] onto handler 'studentsController'
+[INFO] [2016-07-20 00:09:47][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents/] onto handler 'studentsController'
+[INFO] [2016-07-20 00:09:47][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 1516 ms
+[WARN] [2016-07-20 00:10:53][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:12:03][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:12:36][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:12:38][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:12:38][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/crowd] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:12:48][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:13:07][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:15:01][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/showStudents] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2016-07-20 00:15:50][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/students/] in DispatcherServlet with name 'SpringMVC'
+[INFO] [2016-07-20 00:26:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-20 00:26:10][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Jul 20 00:26:10 CST 2016]; root of context hierarchy
+[INFO] [2016-07-20 00:26:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-20 00:26:11][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-20 00:26:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:26:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 669 ms
+[INFO] [2016-07-20 00:26:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-20 00:26:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 20 00:26:11 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-20 00:26:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-20 00:26:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:26:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents] onto handler 'studentsController'
+[INFO] [2016-07-20 00:26:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents.*] onto handler 'studentsController'
+[INFO] [2016-07-20 00:26:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents/] onto handler 'studentsController'
+[INFO] [2016-07-20 00:26:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 448 ms
+[INFO] [2016-07-20 00:30:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-20 00:30:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Jul 20 00:30:11 CST 2016]; root of context hierarchy
+[INFO] [2016-07-20 00:30:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-20 00:30:12][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-20 00:30:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:30:12][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 680 ms
+[INFO] [2016-07-20 00:30:12][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-20 00:30:12][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 20 00:30:12 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-20 00:30:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-20 00:30:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:30:12][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents] onto handler 'studentsController'
+[INFO] [2016-07-20 00:30:12][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents.*] onto handler 'studentsController'
+[INFO] [2016-07-20 00:30:12][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/students/showStudents/] onto handler 'studentsController'
+[INFO] [2016-07-20 00:30:13][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 508 ms
+[INFO] [2016-07-20 00:33:02][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-20 00:33:02][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Jul 20 00:33:02 CST 2016]; root of context hierarchy
+[INFO] [2016-07-20 00:33:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-20 00:33:03][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-20 00:33:03][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:33:03][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 747 ms
+[INFO] [2016-07-20 00:33:03][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-20 00:33:03][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 20 00:33:03 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-20 00:33:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-20 00:33:03][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-20 00:33:04][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents] onto handler 'studentsController'
+[INFO] [2016-07-20 00:33:04][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents.*] onto handler 'studentsController'
+[INFO] [2016-07-20 00:33:04][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents/] onto handler 'studentsController'
+[INFO] [2016-07-20 00:33:04][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 552 ms
+[INFO] [2016-07-23 14:14:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-23 14:14:10][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jul 23 14:14:10 CST 2016]; root of context hierarchy
+[INFO] [2016-07-23 14:14:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-23 14:14:10][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-23 14:14:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-23 14:14:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 653 ms
+[INFO] [2016-07-23 14:14:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-23 14:14:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sat Jul 23 14:14:11 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-23 14:14:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-23 14:14:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-23 14:14:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents] onto handler 'studentsController'
+[INFO] [2016-07-23 14:14:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents.*] onto handler 'studentsController'
+[INFO] [2016-07-23 14:14:11][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/showStudents/] onto handler 'studentsController'
+[INFO] [2016-07-23 14:14:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 550 ms
+[WARN] [2016-07-23 15:35:58][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO] [2016-07-24 19:11:44][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:11:44][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:11:44 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:11:44][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[ERROR] [2016-07-24 19:11:45][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unexpected failure during bean definition parsing
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:323)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:576)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:474)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:443)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:314)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:205)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:141)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:110)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:540)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:316)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElement(BeanDefinitionParserDelegate.java:904)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElements(BeanDefinitionParserDelegate.java:768)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:561)
+	... 36 more
+[INFO] [2016-07-24 19:25:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:25:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:25:40 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:25:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[ERROR] [2016-07-24 19:25:41][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unexpected failure during bean definition parsing
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:323)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:576)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:474)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:443)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:314)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:205)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:141)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:110)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:540)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:316)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElement(BeanDefinitionParserDelegate.java:904)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElements(BeanDefinitionParserDelegate.java:768)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:561)
+	... 36 more
+[INFO] [2016-07-24 19:28:25][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:28:25][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:28:25 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:28:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[ERROR] [2016-07-24 19:28:25][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unexpected failure during bean definition parsing
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:323)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:576)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:474)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:443)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:314)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:205)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:141)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:110)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:540)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:316)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElement(BeanDefinitionParserDelegate.java:904)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElements(BeanDefinitionParserDelegate.java:768)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:561)
+	... 36 more
+[INFO] [2016-07-24 19:29:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:29:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:29:37 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:29:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[ERROR] [2016-07-24 19:29:37][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unexpected failure during bean definition parsing
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:323)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:576)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:474)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:443)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:314)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:205)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:141)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:110)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:540)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple 'property' definitions for property 'mapperLocations'
+Offending resource: class path resource [spring-mybatis.xml]
+Bean 'sqlSessionFactory'
+	-> Property 'mapperLocations'
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:80)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:316)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElement(BeanDefinitionParserDelegate.java:904)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parsePropertyElements(BeanDefinitionParserDelegate.java:768)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:561)
+	... 36 more
+[INFO] [2016-07-24 19:34:15][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:34:15][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:34:15 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:34:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:34:15][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[ERROR] [2016-07-24 19:34:15][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring-mybatis.xml]: Could not resolve placeholder 'driver' in string value "${driver}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'driver' in string value "${driver}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:211)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:223)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:265)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'driver' in string value "${driver}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:259)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:282)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:204)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:141)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:82)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:208)
+	... 23 more
+[INFO] [2016-07-24 19:34:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:34:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:34:20 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:34:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:34:20][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[ERROR] [2016-07-24 19:34:20][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring-mybatis.xml]: Could not resolve placeholder 'driver' in string value "${driver}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'driver' in string value "${driver}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:211)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:223)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:265)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'driver' in string value "${driver}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:259)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:282)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:204)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:141)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:82)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:208)
+	... 23 more
+[INFO] [2016-07-24 19:46:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:46:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:46:21 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:46:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:46:22][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 19:46:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2016-07-24 19:46:22][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(mappedName=, shareable=true, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(mappedName=, shareable=true, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	... 27 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(mappedName=, shareable=true, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:441)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	... 40 more
+[INFO] [2016-07-24 19:49:34][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:49:34][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:49:34 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:49:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:49:34][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 19:49:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2016-07-24 19:49:35][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:782)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:424)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:774)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:445)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	... 27 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.dao.StudentsMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:441)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	... 40 more
+[INFO] [2016-07-24 19:50:23][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:50:23][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:50:23 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:50:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:50:23][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 19:50:23][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 19:50:24][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 645 ms
+[INFO] [2016-07-24 19:50:24][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-24 19:50:24][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Jul 24 19:50:24 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-24 19:50:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-24 19:50:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2016-07-24 19:50:24][org.springframework.web.servlet.DispatcherServlet]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentsController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.service.IStudentsService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(mappedName=, shareable=true, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:672)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:532)
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:344)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedAdapter.start(JettyEmbeddedAdapter.java:67)
+	at net.sourceforge.eclipsejetty.starter.common.AbstractJettyLauncherMain.launch(AbstractJettyLauncherMain.java:84)
+	at net.sourceforge.eclipsejetty.starter.embedded.JettyEmbeddedLauncherMain.main(JettyEmbeddedLauncherMain.java:42)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.peachliu.test.service.IStudentsService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.annotation.Resource(mappedName=, shareable=true, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:441)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:419)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:304)
+	... 32 more
+[INFO] [2016-07-24 19:55:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 19:55:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 19:55:40 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 19:55:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 19:55:40][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 19:55:40][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 19:55:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 690 ms
+[INFO] [2016-07-24 19:55:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-24 19:55:41][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Jul 24 19:55:41 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-24 19:55:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-24 19:55:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 19:55:41][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser] onto handler 'userInfoController'
+[INFO] [2016-07-24 19:55:41][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser.*] onto handler 'userInfoController'
+[INFO] [2016-07-24 19:55:41][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser/] onto handler 'userInfoController'
+[INFO] [2016-07-24 19:55:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 667 ms
+[WARN] [2016-07-24 19:58:41][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO] [2016-07-24 20:00:00][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 20:00:00][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 20:00:00 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 20:00:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 20:00:00][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 20:00:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 20:00:00][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 655 ms
+[INFO] [2016-07-24 20:00:00][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-24 20:00:00][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Jul 24 20:00:00 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-24 20:00:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-24 20:00:01][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 20:00:01][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:00:01][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser.*] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:00:01][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser/] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:00:01][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 626 ms
+[WARN] [2016-07-24 20:00:04][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO] [2016-07-24 20:11:26][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2016-07-24 20:11:26][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Jul 24 20:11:26 CST 2016]; root of context hierarchy
+[INFO] [2016-07-24 20:11:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-07-24 20:11:26][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-07-24 20:11:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 20:11:26][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 646 ms
+[INFO] [2016-07-24 20:11:26][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2016-07-24 20:11:26][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Jul 24 20:11:26 CST 2016]; parent: Root WebApplicationContext
+[INFO] [2016-07-24 20:11:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2016-07-24 20:11:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-07-24 20:11:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:11:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser.*] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:11:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/queryuser/] onto handler 'userInfoController'
+[INFO] [2016-07-24 20:11:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 446 ms
