@@ -7,7 +7,7 @@
  *  
  *
  */
-package com.crowd.domain;
+package com.crowd.domain.system;
 
 /**
  *

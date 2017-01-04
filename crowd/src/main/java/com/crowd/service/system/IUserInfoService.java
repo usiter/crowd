@@ -7,9 +7,10 @@
  *  
  *
  */
-package com.crowd.service;
+package com.crowd.service.system;
 
-import com.crowd.entity.UserInfo;
+import com.baomidou.mybatisplus.service.IService;
+import com.crowd.entity.system.UserInfo;
 
 /**
  *
@@ -22,6 +23,6 @@ import com.crowd.entity.UserInfo;
  * @version 1.0.0
  *
  */
-public interface IUserInfoService {
-	public UserInfo getUserInfoById(long id);
+public interface IUserInfoService extends IService<UserInfo> {
+	
 }
