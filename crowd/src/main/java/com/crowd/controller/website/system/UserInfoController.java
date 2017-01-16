@@ -14,7 +14,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -41,10 +43,16 @@ public class UserInfoController extends BaseController {
  	 * 用户信息页
  	 */
  	private final String USER_INFO_WEB_PAGE = "system/userInfo";
+ 	
+ 	/**
+ 	 * 用户新增页面
+ 	 */
+ 	private final String USER_INFO_ADD_PAGE = "system/userInfoAdd";
+ 	
 	
 	@RequestMapping("/userinfo")
 	public ModelAndView userinfo(){
-		ModelAndView view = new ModelAndView(USER_INFO_WEB_PAGE);
+		ModelAndView view = new ModelAndView(USER_INFO_ADD_PAGE);
 		List<UserInfo> userInfo = userInfoService.selectList(null);
 		view.addObject("test", "test22222");
 		view.addObject("userinfo", userInfo.get(0));
@@ -61,13 +69,16 @@ public class UserInfoController extends BaseController {
 	 * @since [产品/模块版本](可选)
 	 */
 	@ResponseBody
-	@RequestMapping("/save")
-	public Object save(UserInfo userInfo){
-		if(userInfo.getId() != null){
+	@RequestMapping(value = "/save", method = RequestMethod.POST)
+	public Object save(@RequestBody UserInfo userInfo){
+		/*if(userInfo.getId() != null){
 			return userInfoService.updateById(userInfo) ? renderSuccess("修改成功") : renderError("修改失败");
 		}else{
 			return userInfoService.insert(userInfo) ? renderSuccess("添加成功") : renderError("添加失败");
-		}
+		}*/
+		
+		return userInfoService.insert(userInfo) ? renderSuccess("添加成功") : renderError("添加失败");
+		
 		
 	}
 	

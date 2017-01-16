@@ -23,7 +23,11 @@ package com.crowd.domain.system;
 public class UserInfoVo {
 	private String userId;
 	private String name;
+	private String sex;
 	private String age;
+	private String edution;
+	private String authentication;
+	
 	
 	public String getUserId() {
 		return userId;
@@ -37,12 +41,32 @@ public class UserInfoVo {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
 	public String getAge() {
 		return age;
 	}
 	public void setAge(String age) {
 		this.age = age;
 	}
+	public String getEdution() {
+		return edution;
+	}
+	public void setEdution(String edution) {
+		this.edution = edution;
+	}
+	public String getAuthentication() {
+		return authentication;
+	}
+	public void setAuthentication(String authentication) {
+		this.authentication = authentication;
+	}
+	
+	
 	
 
 }
